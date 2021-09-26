@@ -1,0 +1,20 @@
+{
+  "name": "vuepress-template",
+  "version": "0.0.1",
+  "description": "vuepress模板,快速搭建文档网站",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": "git@github.com:shoppingzh/vuepress-template.git",
+  "author": "shoppingzh <1049262057@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.8.2",
+    "vuepress": "^1.8.2"
+  },
+  "dependencies": {
+    "vuepress-theme-reco": "^1.6.6"
+  }
+}
