@@ -1,5 +1,5 @@
-const nav = require('./nav')
-const sidebar = require('./sidebar')
+const { generateNav, generateSidebar } = require('vuepress-util')
+const { navs } = require('../../config.js')
 
 module.exports = {
   title: 'VuePress模板',
@@ -24,7 +24,7 @@ module.exports = {
     logo: '/logo.png',
     lastUpdated: '最后更新时间',
     // 导航栏
-    nav,
-    sidebar
+    nav: generateNav(navs),
+    sidebar: generateSidebar()
   }
 }
