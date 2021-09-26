@@ -19,7 +19,7 @@ module.exports = {
   },
 
   // 主题
-  // theme: 'reco',
+  theme: 'reco',
   themeConfig: {
     logo: '/logo.png',
     lastUpdated: '最后更新时间',
