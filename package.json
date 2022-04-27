@@ -16,6 +16,6 @@
   },
   "dependencies": {
     "vuepress-theme-reco": "1.5.7",
-    "vuepress-util": "^0.0.10"
+    "vuepress-util": "^0.0.15"
   }
 }
