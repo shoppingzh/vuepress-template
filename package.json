@@ -1,7 +1,7 @@
 {
   "name": "vuepress-template",
   "version": "0.0.1",
-  "description": "vuepress模板,快速搭建文档网站",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "vuepress dev docs",
