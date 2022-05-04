@@ -16,7 +16,8 @@ module.exports = {
   plugins: {
     '@vuepress/medium-zoom': {
       selector: '.page img'
-    }
+    },
+    '@vuepress/back-to-top': {}
   },
 
   // 主题
